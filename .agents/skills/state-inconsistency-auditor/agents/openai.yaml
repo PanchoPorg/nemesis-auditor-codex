@@ -1,0 +1,7 @@
+interface:
+  display_name: "State Inconsistency Auditor"
+  short_description: "Coupled-state audit for silent desync bugs"
+  default_prompt: "Use $state-inconsistency-auditor to audit this codebase for coupled-state desynchronization bugs."
+
+policy:
+  allow_implicit_invocation: true

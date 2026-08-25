@@ -1,0 +1,7 @@
+interface:
+  display_name: "Feynman Auditor"
+  short_description: "First-principles audit for business-logic bugs"
+  default_prompt: "Use $feynman-auditor to run a first-principles business-logic audit on this codebase."
+
+policy:
+  allow_implicit_invocation: true
