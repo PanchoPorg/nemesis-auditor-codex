@@ -1,0 +1,7 @@
+interface:
+  display_name: "Nemesis Auditor"
+  short_description: "Iterative cross-feed audit for logic and state bugs"
+  default_prompt: "Use $nemesis-auditor to run an iterative business-logic and state-inconsistency audit on this codebase."
+
+policy:
+  allow_implicit_invocation: true
